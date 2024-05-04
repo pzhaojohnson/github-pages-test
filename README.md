@@ -2,6 +2,10 @@
 Testing out GitHub pages
 
 ```typescript
+type Spec = {
+  sequence: string;
+};
+
 function RNAcanvas(spec: {}) {
   new RNAcanvasApp();
 
